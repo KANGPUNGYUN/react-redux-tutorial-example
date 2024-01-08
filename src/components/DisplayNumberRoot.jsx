@@ -7,8 +7,9 @@ export default class DisplayNumberRoot extends Component {
       <div>
         <h1>Display Number Root</h1>
         <DisplayNumber
-        // store를 통해 값이 전달되기 때문에 props를 할 필요가 없다.
-        // number={this.props.number}
+          // store를 통해 값이 전달되기 때문에 props를 할 필요가 없다.
+          // number={this.props.number}
+          unit="kg"
         ></DisplayNumber>
       </div>
     );
